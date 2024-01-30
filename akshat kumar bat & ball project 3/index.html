@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Bat & Ball</title>
+  </head>
+  <body>
+    <h1>Akshat Kumar Bat & Ball Game</h1>
+    <div id="btn">
+      <button
+        class="btn1"
+        onclick="console.log('You clicked bat')
+      let computerChoice;
+      let randomNumber = Math.random() * 3;
+      if(randomNumber > 0 && randomNumber <= 1){
+        computerChoice = 'Bat'
+        console.log('YOu choosed Bat')
+      } else if(randomNumber > 1 && randomNumber <= 2)
+      {
+        computerChoice = 'Ball';
+         console.log('You have choosed Ball');
+      } else {
+        computerChoice = 'Stump'
+        console.log('You have choosed Stump')      }"
+      >
+        BAT
+      </button>
+      <button class="btn1">BALL</button>
+      <button class="btn1">STUMP</button>
+    </div>
+  </body>
+</html>
